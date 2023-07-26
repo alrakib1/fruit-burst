@@ -39,9 +39,10 @@
             <li><a>Shop</a></li>
             <li><a>All Fruits</a></li>
           </ul>
-          <div class="">
-            <div class="dropdown">
-              <label tabindex="0" class="btn btn-ghost mr-8 md:hidden">
+          <div class="flex-row-reverse  gap-16 md:gap-0">
+            <div>
+              <div class="dropdown ">
+              <label tabindex="0" class="btn btn-ghost md:hidden ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-5 w-5"
@@ -60,7 +61,7 @@
               <div>
                 <ul
                 tabindex="0"
-                class=" menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                class=" menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-28"
               >
                 <li><a>Home</a></li>
                 <li><a>About Us</a></li>
@@ -69,19 +70,23 @@
               </ul>
               </div>
             </div>
-            <div class=" lg:flex">
-              <div class="flex items-center gap-2 lg:gap-4">
-                <img class="w-9" src="./images/logo.png" alt="">
-                <h2 class="text-xl md:text-4xl md:text-white font-bold">Fruit Burst</h2>
-              </div>
+          </div>
+            <div>
+              <div class=" lg:flex">
+                <div class="flex items-center gap-2 lg:gap-4">
+                  <img class="w-9" src="./images/logo.png" alt="">
+                  <h2 class="text-xl md:text-4xl md:text-white font-bold">Fruit Burst</h2>
+                </div>
+            </div>
             </div>
           </div>
-          <div class="hidden lg:inline pr-10">
+          <div class="hidden lg:inline pr-10 ">
             <input
               type="text"
               placeholder="Search here "
-              class="input input-bordered w-96"
+              class="input input-bordered w-96 rounded-full"
             />
+            
           </div>
         </div>
       </nav>
@@ -168,7 +173,7 @@
             </div>
           </div>
         </div>
-        <div class="hidden lg:inline-flex lg:justify-around lg:mx-auto bg-white w-[1200px] relative -top-32 left-40 py-12 rounded-lg">
+        <div class="hidden lg:inline-flex lg:justify-around lg:mx-auto bg-white w-[1200px] relative -top-32 left-40 py-12 rounded-lg shadow">
          <div >
           <img src="./images/fruit1.png" alt="">
           <p class="text-center">Strawberry</p>
@@ -192,6 +197,19 @@
         </div>
       </section>
       <!-- banner ends here -->
+      <!-- deal of the day starts here -->
+      <section class="container">
+        <div>
+          <div>
+            <h3 class="text-5xl font-bold">Deal of the day</h3>
+            <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+          </div>
+          <div>
+
+          </div>
+        </div>
+      </section>
+      <!-- deal of the day ends here -->
     </main>
     <footer></footer>
   </body>
